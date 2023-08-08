@@ -1,3 +1,4 @@
 local RPS = game:GetService("ReplicatedStorage")
 
-local TradeEvent = RPS.TradeEvent 
+local TradeEvent = RPS.TradeEvent
+

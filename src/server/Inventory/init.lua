@@ -8,6 +8,7 @@ Inventory.Inventory = {}
 function Inventory.new(plr)
     local self = setmetatable({},Inventory)
     self.Player = plr
+    --Every child of Contents must be a table
     self.Contents = {
         Currency = {
             Money = 5000,
